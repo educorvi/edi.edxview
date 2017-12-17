@@ -6,33 +6,20 @@
 edi.edxview
 ==============================================================================
 
-Tell me what your product does
+These product provides a browser view for rendering Plone pages in a pure getbootstrap layout. This is useful if you want to embed pages in a foreign system via iFrame.
 
-Features
---------
+Usage
+-----
 
-- Can be bullet points
+You can append "@@edxview" to your URL and embed your pages with the following code:
+
+<iframe src="http://my.plone.site/page/@@edxview" ..></iframe>
 
 
 Examples
 --------
 
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+An example usecase is to embed Plone pages with content you need in more then one mooc.
 
 
 Installation
@@ -51,19 +38,11 @@ Install edi.edxview by adding it to your buildout::
 and then running ``bin/buildout``
 
 
-Contribute
-----------
-
-- Issue Tracker: https://github.com/collective/edi.edxview/issues
-- Source Code: https://github.com/collective/edi.edxview
-- Documentation: https://docs.plone.org/foo/bar
-
-
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+We have a mailing list located at: walther.educorvi@gmail.com
 
 
 License
